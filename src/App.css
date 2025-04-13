@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-light: #F8F8F8;
+  --color-teal: #01ABB5;
+  --color-orange: #FF6600;
+  --color-ocean: #00577C;
+}
+
+#root {
+  width: 100%;
+  /*margin: 0 auto;*/
+  /*padding: 2rem;*/
+  text-align: center;
+}
+
+.logo {
+  height: 5em;
+  /*padding: 1.5em;*/
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #01ABB5);
+}
+
