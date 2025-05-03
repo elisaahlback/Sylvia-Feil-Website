@@ -8,12 +8,12 @@
   --color-ocean: #00577C;
 }
 
-#root {
+/*#root {
   width: 100%;
   /*margin: 0 auto;*/
-  /*padding: 2rem;*/
+  /*padding: 2rem;
   text-align: center;
-}
+}*/
 
 .logo {
   height: 5em;
