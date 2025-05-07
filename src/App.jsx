@@ -8,6 +8,7 @@ import MediaDidactics from './pages/MediaDidactics';
 import Publications from './pages/Publications';
 import Vita from './pages/Vita';
 import Impressum from './pages/Impressum';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -23,8 +24,8 @@ function App() {
           <Route path="/vita" element={<Vita />} />
           <Route path="/impressum" element={<Impressum />} />
         </Routes>
-      </div> 
-    
+    </div> 
+    <Footer></Footer>
     </>
   )
 }
