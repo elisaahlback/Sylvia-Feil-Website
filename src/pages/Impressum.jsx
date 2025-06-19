@@ -1,13 +1,13 @@
 function Impressum() {
 
     return (
-      <main className="bg-light min-h-screen pt-12 px-6">
+      <main className="bg-light pt-12 px-6 pb-16">
       <div className="w-3/5 ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16 space-y-8">
       <section>
           <h2 className="text-3xl font-bold text-red mb-4">Impressum</h2>
 
           <h3 className="text-ocean font-semibold text-xl mb-2">Kontakt</h3>
-          <div className="w-2/5 bg-[#E9E9E9] p-4 rounded-lg mb-4">
+          <div className="w-2/5 bg-[#BFDEE0] p-4 rounded-lg mb-4">
             <p className="text-sm">
               SYLVIA FEIL<br />
               Eulenkamp 16 A<br />
@@ -24,8 +24,8 @@ function Impressum() {
           </p>
         </section>
 
-        <section className="space-y-4 text-sm">
-          <h3 className="text-ocean font-semibold text-xl">Haftungshinweis:</h3>
+        <section className="space-y-2 text-sm">
+          <h3 className="text-ocean font-semibold text-xl">Haftungshinweis</h3>
           <p>
             Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine
             Haftung für die Inhalte externer Links. Für den Inhalt externer
@@ -40,7 +40,7 @@ function Impressum() {
         </section>
 
         <section className="space-y-2 text-sm">
-          <h3 className="text-ocean font-semibold text-xl">Layout und Webgestaltung:</h3>
+          <h3 className="text-ocean font-semibold text-xl">Layout und Webgestaltung</h3>
           <p>Elisa Ahlbäck Norris</p>
           <p>ahlbackelisa@gmail.com</p>
           <p><a href={`https://linkedin.com/in/elisa-ahlbäck-norris-1102991b6`} target="_blank" className="underline">Linkedin</a></p>
@@ -57,7 +57,7 @@ function Impressum() {
           </ul>
         </section>
 
-        <section className="space-y-4 text-sm">
+        <section className="space-y-2 text-sm">
           <h3 className="text-ocean font-semibold text-xl">Datenschutzerklärung</h3>
 
           <p><strong>Datenschutz – allgemeine Hinweise</strong></p>

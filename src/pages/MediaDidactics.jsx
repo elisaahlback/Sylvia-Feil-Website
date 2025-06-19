@@ -3,8 +3,8 @@ function MediaDidactics() {
     return (
       <>
       {/* <div className="bg-ocean min-h-screen pt-16 px-6"> */}
-      <main className="bg-ocean min-h-screen pt-16 px-6">
-        <div className="w-3/5 ml-4 md:ml-8 lg:ml-16">
+      <main className="bg-ocean pt-12 px-6 pb-16">
+        <div className="w-4/5 md:w-3/5 ml-4 md:ml-8 lg:ml-16">
             <h2 className="text-3xl font-bold mb-4 text-light">Mediendidaktik</h2>
             <section className="mb-5 md:mb-6">
             <h3 className="text-teal font-semibold mb-2">Workshops im Rahmen von Konferenzen und Austauschtreffen (Auszüge)</h3>
@@ -22,7 +22,7 @@ function MediaDidactics() {
             <h3 className="text-teal font-semibold mb-2">Mitglied der AG digitale Medien und Hochschuldidaktik der dghd</h3>
             </section>
 
-            <section className="mb-5 md:mb-6">  
+            <section className="md:mb-6">  
             <h3 className="text-teal font-semibold mb-2">Workshops und Lehraufträge veranstaltet u.a.Agentur für Erwachsenen-und Weiterbildung Niedersachsen (AEWB), HAW Hamburg, Hochschulübergreifende Weiterbildung (HüW) und die TU Braunschweig</h3>
             <ul className="border-l-3 border-teal pl-4 ml-2 list-disc list-inside space-y-2 text-sm text-light">
                 <li>Herausforderungen beim Einsatz digitaler Medien in der Lehre</li>

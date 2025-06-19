@@ -11,7 +11,7 @@ function VitaCard({ year, text }) {
 
 function Vita() {
   return (
-    <main className="bg-light min-h-screen pt-12 px-6">
+    <main className="bg-light pt-12 px-6 pb-16">
       <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
       <h2 className="text-3xl font-bold mb-8 text-ocean">Vita</h2>
 
@@ -26,9 +26,8 @@ function Vita() {
   [&::-webkit-scrollbar-thumb]:bg-red">
           
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
-            <h3 className="text-red font-semibold">Studium</h3>
-            <p className="text-sm">SYLVIA FEIL studierte Diplom-Chemie an der Leibniz Universität Hannover. Sie war ein Semester Gasthörerin an der Universität von Wisconsin, Madison (USA) in der School of Journalism and Mass Communication.
-                <br/>Das Stipendium für angehende Wissenschaftsjournalisten des Fonds der Chemischen Industrie führte sie in die Redaktionen Pressestelle der Universität Hannover, der Lokalpresse – Neue Presse Hannover –, des Rundfunks – NDR1 – und des Schroedel-Verlags. Sie nahm am Qualifizierungsprogramm “Wissenschaftsjournalismus” teil, veranstaltet von der Bertelsmann-Stiftung, Volkswagenstiftung und BASF AG.</p>
+            <h3 className="text-red font-semibold">2017</h3>
+            <p className="text-sm">Seit 2017 arbeitet sie als Mediendidaktische Beraterin des E-Learning-Services (ZQS / elsa) der Leibniz Universität Hannover, ist dort Mitglied von „Netzwerk Lehre“ und begleitet verschiedene Projekte.</p>
           </section>
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
@@ -42,13 +41,14 @@ function Vita() {
           </section>
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
-            <h3 className="text-red font-semibold">2017</h3>
-            <p className="text-sm">Seit 2017 arbeitet sie als Mediendidaktische Beraterin des E-Learning-Services (ZQS / elsa) der Leibniz Universität Hannover, ist dort Mitglied von „Netzwerk Lehre“ und begleitet verschiedene Projekte.</p>
+            <h3 className="text-red font-semibold">Studium</h3>
+            <p className="text-sm">SYLVIA FEIL studierte Diplom-Chemie an der Leibniz Universität Hannover. Sie war ein Semester Gasthörerin an der Universität von Wisconsin, Madison (USA) in der School of Journalism and Mass Communication.
+<br/>Das Stipendium für angehende Wissenschaftsjournalisten des Fonds der Chemischen Industrie führte sie in die Redaktionen Pressestelle der Universität Hannover, der Lokalpresse – Neue Presse Hannover –, des Rundfunks – NDR1 – und des Schroedel-Verlags. Sie nahm am Qualifizierungsprogramm “Wissenschaftsjournalismus” teil, veranstaltet von der Bertelsmann-Stiftung, Volkswagenstiftung und BASF AG.</p>
           </section>
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
             <h3 className="text-red font-semibold">Ehrenamt</h3>
-            <p className="text-sm">Ehrenamtlich engagierte sie sich weiterhin für das Fundraising ihrer ev.-luth. Kirchengemeinde und die monatliche Friedensandacht. Sie lebt in der Region Hannover.</p>
+            <p className="text-sm">Ehrenamtlich engagiert sie sich für das Fundraising ihrer ev.-luth. Kirchengemeinde. Sie initiierte zusammen mit Linda Bücking das hannoversche Netzwerk "Austausch Lehre und Erwachsenenbildung". Sie lebt in der Region Hannover.</p>
           </section>
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">

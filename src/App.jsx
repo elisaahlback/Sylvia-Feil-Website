@@ -14,8 +14,9 @@ function App() {
 
   return (
     <>
+    <div className="flex flex-col min-h-screen">
     <NavBar></NavBar>
-    <div className="pt-26 px-0">
+    <div className="flex-grow pt-20 px-0">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/science_communication" element={<ScienceCommunication />} />
@@ -26,6 +27,7 @@ function App() {
         </Routes>
     </div> 
     <Footer></Footer>
+    </div>
     </>
   )
 }

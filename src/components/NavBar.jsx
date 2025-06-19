@@ -8,7 +8,7 @@ function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-      <nav className="bg-light text-teal shadow-md fixed top-0 left-0 w-full z-50 h-20">
+      <nav className="bg-light text-teal shadow fixed top-0 left-0 w-full z-50 h-20">
         <div className="max-w-screen-xl mx-auto px-4 h-full flex items-center justify-between">
             
             {/* Logo - centered on mobile */}

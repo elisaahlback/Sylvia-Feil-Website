@@ -6,13 +6,13 @@ function ScienceCommunication() {
 
     return (
       <>
-        <main className="bg-light min-h-screen pt-12 px-6">
+        <main className="bg-light pt-12 px-6 pb-16">
           <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
             <h2 className="text-3xl font-bold mb-4 text-ocean">Wissenschaftskommunikation</h2>
             
             
             <section>
-              <p className="text-sm text-justify pb-4">Wissen vermitteln ist das Ziel in der Lehre, aber auch von Zeitschriften und Sachbüchern im wissenschaftlichen Bereich. Ein paar Schlaglichter sollen veranschaulichen, wie der Einsatz digitaler Medien und Kreativität zusammenfinden.</p>
+              <p className="text-sm pb-4">Wissen vermitteln ist das Ziel in der Lehre, aber auch von Zeitschriften und Sachbüchern im wissenschaftlichen Bereich. Ein paar Schlaglichter sollen veranschaulichen, wie der Einsatz digitaler Medien und Kreativität zusammenfinden.</p>
             </section>
             
             <div className="flex flex-col lg:flex-row gap-6">
