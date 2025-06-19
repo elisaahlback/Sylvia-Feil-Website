@@ -1,13 +1,13 @@
 function Impressum() {
 
     return (
-      <main className="bg-light pt-12 px-6 pb-16">
+      <main className="bg-light pt-12 px-6 pb-19">
       <div className="w-3/5 ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16 space-y-8">
       <section>
           <h2 className="text-3xl font-bold text-red mb-4">Impressum</h2>
 
           <h3 className="text-ocean font-semibold text-xl mb-2">Kontakt</h3>
-          <div className="w-2/5 bg-[#BFDEE0] p-4 rounded-lg mb-4">
+          <div className="w-2/5 bg-[#BFDEE0] p-4 rounded mb-4">
             <p className="text-sm">
               SYLVIA FEIL<br />
               Eulenkamp 16 A<br />

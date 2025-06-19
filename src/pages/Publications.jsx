@@ -25,7 +25,7 @@ function Publications () {
 
   return (
     <>
-    <main className="bg-light pt-12 px-6 pb-16">
+    <main className="bg-light pt-12 px-6 pb-19">
       <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
           <h2 className="text-3xl font-bold mb-4 text-red">Publikationen</h2>
           

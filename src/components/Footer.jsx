@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
       <footer className="bg-ocean text-[#4f92b3] inset-shadow-sm">
-        <div className="max-w-screen-xl mx-auto px-4 py-8 space-y-6">
+        <div className="max-w-screen-xl mx-auto px-4 py-5 space-y-6">
             {/*Page links*/}
             <ul className="flex flex-wrap justify-center gap-4 md:gap-6">
                 <li><Link to="/science_communication" className="text-sm hover:text-red transition-all duration-300">Science communication</Link></li>

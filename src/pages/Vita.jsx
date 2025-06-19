@@ -11,7 +11,7 @@ function VitaCard({ year, text }) {
 
 function Vita() {
   return (
-    <main className="bg-light pt-12 px-6 pb-16">
+    <main className="bg-light pt-12 px-6 pb-19">
       <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
       <h2 className="text-3xl font-bold mb-8 text-ocean">Vita</h2>
 
@@ -19,7 +19,7 @@ function Vita() {
         <img
           src={SylviaPortrait}
           alt="Sylvia Feil"
-          className="w-48 h-60 object-cover rounded-full shadow-md inline-block"
+          className="w-48 h-60 object-cover rounded shadow-md inline-block"
         />
         <div className="overflow-y-auto h-96 pr-4 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full
   [&::-webkit-scrollbar-track]:bg-gray-100
@@ -32,7 +32,7 @@ function Vita() {
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
             <h3 className="text-red font-semibold">2002</h3>
-            <p className="text-sm">Seit 2002 schreibt Sylvia Feil für das Fachmagazin „Chemie in unserer Zeit“. Zusätzlich schrieb sie für die „Biologie in unserer Zeit“, Hannoversche Allgemeine Zeitung und andere im Bereich Naturwissenschaft und Forschung. Daneben schrieb sie Sachbücher zu Chemie und Biologie.</p>
+            <p className="text-sm">Seit 2002 schreibt Sylvia Feil für das Fachmagazin “Chemie in unserer Zeit”. Zusätzlich schrieb sie für die “Biologie in unserer Zeit”, Hannoversche Allgemeine Zeitung und andere im Bereich Naturwissenschaft und Forschung. Daneben schrieb sie Sachbücher zu Chemie und Biologie.</p>
           </section>
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
