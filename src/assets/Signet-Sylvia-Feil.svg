@@ -2,24 +2,15 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="42.52px" height="42.52px" viewBox="0 0 42.52 42.52" enable-background="new 0 0 42.52 42.52" xml:space="preserve">
-<g>
-	<path fill="#00577D" d="M24.647,11.415c0,0.527-0.42,0.959-0.947,0.959s-0.959-0.432-0.959-0.959c0-0.526,0.432-0.946,0.959-0.946
-		S24.647,10.889,24.647,11.415z"/>
-</g>
-<g>
-	<path fill="#17A1B1" d="M3.244,18.311c0,0.527-0.42,0.959-0.947,0.959c-0.528,0-0.96-0.432-0.96-0.959s0.432-0.947,0.96-0.947
-		C2.824,17.364,3.244,17.784,3.244,18.311z"/>
-</g>
-<g>
-	<path fill="#17A1B1" d="M41.036,27.363c0,0.527-0.42,0.959-0.947,0.959s-0.959-0.432-0.959-0.959s0.432-0.947,0.959-0.947
-		S41.036,26.836,41.036,27.363z"/>
-</g>
-<line fill="none" stroke="#BA105A" stroke-width="0.5" x1="26.156" y1="13.251" x2="38.897" y2="25.861"/>
-<line fill="none" stroke="#BA105A" stroke-width="0.5" x1="4.12" y1="17.665" x2="20.935" y2="11.448"/>
-<line fill="none" stroke="#BA105A" stroke-width="0.5" x1="12.263" y1="28.479" x2="22.792" y2="13.968"/>
-<g>
-	<path fill="#17A1B1" d="M11.981,30.08c0,0.527-0.42,0.959-0.947,0.959c-0.528,0-0.96-0.432-0.96-0.959s0.432-0.947,0.96-0.947
-		C11.562,29.133,11.981,29.553,11.981,30.08z"/>
-</g>
+	 width="43.52px" height="42.52px" viewBox="0 0 42.52 42.52" enable-background="new 0 0 42.52 42.52" xml:space="preserve">
+<!-- Dots -->
+  <circle cx="24" cy="10.5" r="1.8" fill="#00577D" />
+  <circle cx="1.5" cy="18.7" r="1.8" fill="#17A1B1" />
+  <circle cx="41" cy="28" r="1.8" fill="#17A1B1" />
+  <circle cx="10.7" cy="31" r="1.8" fill="#17A1B1" />
+
+  <!-- Lines -->
+  <line x1="26.156" y1="13.251" x2="38.897" y2="25.861" stroke="#BA105A" stroke-width="1.5" />
+  <line x1="4.12" y1="17.665" x2="20.935" y2="11.448" stroke="#BA105A" stroke-width="1.5" />
+  <line x1="12.263" y1="28.479" x2="22.792" y2="13.968" stroke="#BA105A" stroke-width="1.5" />
 </svg>
