@@ -7,9 +7,9 @@ function Footer() {
         <div className="max-w-screen-xl mx-auto px-4 py-5 space-y-6">
             {/*Page links*/}
             <ul className="flex flex-wrap justify-center gap-4 md:gap-6">
-                <li><Link to="/science_communication" className="text-sm hover:text-red transition-all duration-300">Science communication</Link></li>
-                <li><Link to="/media_didactics" className="text-sm hover:text-red transition-all duration-300">Media didactics</Link></li>
-                <li><Link to="/publications" className="text-sm hover:text-red transition-all duration-300">Publications</Link></li>
+                <li><Link to="/science_communication" className="text-sm hover:text-red transition-all duration-300">Wissenschaftskommunikation</Link></li>
+                <li><Link to="/media_didactics" className="text-sm hover:text-red transition-all duration-300">Mediendidaktik</Link></li>
+                <li><Link to="/publications" className="text-sm hover:text-red transition-all duration-300">Publikationen</Link></li>
                 <li><Link to="/vita" className="text-sm hover:text-red transition-all duration-300">Vita</Link></li>
                 <li><Link to="/impressum" className="text-sm hover:text-red transition-all duration-300">Impressum</Link></li>
             </ul>

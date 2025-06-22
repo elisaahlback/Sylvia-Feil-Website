@@ -8,12 +8,12 @@ function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-      <nav className="bg-light text-teal shadow fixed top-0 left-0 w-full z-50 h-20">
+      <nav className="bg-light text-teal shadow fixed top-0 left-0 w-full z-50 py-6">
         <div className="max-w-screen-xl mx-auto px-4 h-full flex items-center justify-between">
             
             {/* Logo - centered on mobile */}
             <Link to="/" className="logo flex items-center gap-2 h-full">
-                  <img src={SignetSylvia} className="h-12 md:h-12 object-contain" alt="Sylvia signet" />
+                  {/*<img src={SignetSylvia} className="h-12 md:h-12 object-contain" alt="Sylvia signet" />*/}
                   <img src={LogoSylvia} className="h-10 md:h-8 object-contain" alt="Sylvia Feil logo" />
             </Link>
 
@@ -38,9 +38,9 @@ function Navbar() {
         {/* Mobile Menu */}
         {menuOpen && (
           <ul className="lg:hidden flex flex-col items-center gap-4 py-4 bg-light text-sm shadow-md text-teal hover:text-red transition-all duration-300 ease-in-out">
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/science_communication" onClick={() => setMenuOpen(false)}>Science communication</Link></li>
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/media_didactics" onClick={() => setMenuOpen(false)}>Media didactics</Link></li>
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/publications" onClick={() => setMenuOpen(false)}>Publications</Link></li>
+            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/science_communication" onClick={() => setMenuOpen(false)}>Wissenschaftskommunikation</Link></li>
+            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/media_didactics" onClick={() => setMenuOpen(false)}>Mediendidaktik</Link></li>
+            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/publications" onClick={() => setMenuOpen(false)}>Publikationen</Link></li>
             <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/vita" onClick={() => setMenuOpen(false)}>Vita</Link></li>
             <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/impressum" onClick={() => setMenuOpen(false)}>Impressum</Link></li>
           </ul>
