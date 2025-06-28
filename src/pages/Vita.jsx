@@ -11,19 +11,19 @@ function VitaCard({ year, text }) {
 
 function Vita() {
   return (
-    <main className="bg-light pt-12 px-6 pb-19">
+    <main className="bg-light px-6 pt-[80px] pb-[60px]">
       <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
       <h2 className="text-3xl font-bold mb-8 text-ocean">Vita</h2>
 
-      <div className="flex flex-col md:flex-row items-start gap-6">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <img
           src={SylviaPortrait}
           alt="Sylvia Feil"
-          className="w-48 h-60 object-cover rounded shadow-md inline-block"
+          className="hidden md:w-48 md:h-60 md:object-cover md:rounded md:shadow-md md:inline-block"
         />
-        <div className="overflow-y-auto h-96 pr-4 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full
-  [&::-webkit-scrollbar-track]:bg-gray-100
-  [&::-webkit-scrollbar-thumb]:bg-red">
+        <div className="overflow-y-auto h-110 pr-4 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full
+                        [&::-webkit-scrollbar-track]:bg-red/[.2]
+                        [&::-webkit-scrollbar-thumb]:bg-red">
           
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
             <h3 className="text-red font-semibold">2017</h3>
@@ -43,7 +43,7 @@ function Vita() {
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
             <h3 className="text-red font-semibold">Studium</h3>
             <p className="text-sm">SYLVIA FEIL studierte Diplom-Chemie an der Leibniz Universität Hannover. Sie war ein Semester Gasthörerin an der Universität von Wisconsin, Madison (USA) in der School of Journalism and Mass Communication.
-<br/>Das Stipendium für angehende Wissenschaftsjournalisten des Fonds der Chemischen Industrie führte sie in die Redaktionen Pressestelle der Universität Hannover, der Lokalpresse – Neue Presse Hannover –, des Rundfunks – NDR1 – und des Schroedel-Verlags. Sie nahm am Qualifizierungsprogramm “Wissenschaftsjournalismus” teil, veranstaltet von der Bertelsmann-Stiftung, Volkswagenstiftung und BASF AG.</p>
+              <br/>Das Stipendium für angehende Wissenschaftsjournalisten des Fonds der Chemischen Industrie führte sie in die Redaktionen Pressestelle der Universität Hannover, der Lokalpresse – Neue Presse Hannover –, des Rundfunks – NDR1 – und des Schroedel-Verlags. Sie nahm am Qualifizierungsprogramm “Wissenschaftsjournalismus” teil, veranstaltet von der Bertelsmann-Stiftung, Volkswagenstiftung und BASF AG.</p>
           </section>
 
           <section className="border-l-2 border-teal pl-3 ml-2 mb-4">
@@ -57,39 +57,16 @@ function Vita() {
           </section>
 
         </div>
+        <img
+          src={SylviaPortrait}
+          alt="Sylvia Feil"
+          className="sm:hidden w-48 h-60 object-cover rounded-full mt-3 shadow-md inline-block"
+        />
       </div>
 
 
 </div>
 
-
-
-      {/* Mobile Fallback: Stacked Cards */}
-      <div className="flex flex-col items-center gap-4 mt-8 md:hidden">
-        <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
-          <img
-            src={SylviaPortrait}
-    alt="Sylvia Feil"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <VitaCard
-          year="2017–present"
-          text="Mediendidaktische Beraterin des E-Learning-Services der Leibniz Universität Hannover."
-        />
-        <VitaCard
-          year="1998–2020"
-          text="Stipendium & Redaktion für Schulbücher und digitale Materialien für den Westermann Verlag."
-        />
-        <VitaCard
-          year="1990–1996 & 1998"
-          text="Studium der Diplom-Chemie an der Leibniz Universität Hannover und Gastaufenthalt in Wisconsin, USA."
-        />
-        <VitaCard
-          year="2015–2019"
-          text="Vorstandsmitglied Journalistinnenbund & Projekt Genderleicht.de für gendersensible Sprache."
-        />
-      </div>
     </main>
   );
 }
