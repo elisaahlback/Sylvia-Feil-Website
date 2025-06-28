@@ -13,7 +13,7 @@ const publicationsData = [
         isbn: "978-3-7639-7718-5",
         doi: "DOI: 10.3278/9783763977192",
         image: book1,
-        pubid: "pub1"
+        pubid: "book-1"
     },
     {
         title: "Didaktische Handreichung zur praktischen Nutzung von KI in der Lehre",
@@ -23,7 +23,7 @@ const publicationsData = [
         doi: "",
         image: articleIcon,
         imageSize: 'small',
-        pubid: "pub2"
+        pubid: "paper-2"
       
     },
     {
@@ -34,7 +34,17 @@ const publicationsData = [
         doi: "https://doi.org/10.13109/erbi.2020.66.4.158",
         image: articleIcon,
         imageSize: 'small',
-        pubid: "pub3"
+        pubid: "paper-3"
+    },
+    {
+        title: "Didaktische Handreichung zur praktischen Nutzung von KI in der Lehre",
+        subtitle: "https://www.gmw-online.de/wp-content/uploads/2024/10/KI-Handreichung-dghd_GMW_V01_21102024.pdf",
+        description: "Bremer, C., Eichhorn, M., Feil, S. et al. (2024)",
+        isbn: "",
+        doi: "",
+        image: articleIcon,
+        imageSize: 'small',
+        pubid: "paper-4"
     },
     {
         title: "Brückenkurs Chemie",
@@ -43,7 +53,7 @@ const publicationsData = [
         isbn: "978-3-662-69350-6",
         doi: "DOI: 10.1007/978-3-662-69351-3 ",
         image: book5,
-        pubid: "pub4"
+        pubid: "book-4"
     },
     {
         title: "Fliegenfüße, Sonnencreme, Pfefferminz und Kerzenschein",
@@ -52,7 +62,7 @@ const publicationsData = [
         isbn: "978-3-622-59263-2",
         doi: "DOI: 10.1007/978-3-662-59264-9",
         image: book4,
-        pubid: "pub5"
+        pubid: "book-5"
     },
     {
         title: "Faszinierende Chemie",
@@ -61,7 +71,7 @@ const publicationsData = [
         isbn: "978-3-662-49920-7",
         doi: "DOI: 10.1007/978-3-662-57324-2",
         image: book3,
-        pubid: "pub6"
+        pubid: "book-6"
     },
     {
         title: "Labskaus – Dosenfutter und Meer",
@@ -70,17 +80,7 @@ const publicationsData = [
         isbn: "978-3-658-21389-3",
         doi: "DOI: 10.1007/978-3-658-21390-9_12",
         image: book2,
-        pubid: "pub7"
-    },
-    {
-        title: "",
-        subtitle: "",
-        description: "Teilübersetzung Englisch-Deutsch des Standardlehrwerks „Organische Chemie“, K. P. C. Vollhardt, N. E. Schore, Verlag WILEY-VCH, 4. Auflage, 2005",
-        isbn: "978-3-527-31380-8",
-        doi: "",
-        image: articleIcon,
-        imageSize: 'small',
-        pubid: "pub8"
+        pubid: "book-7"
     }
   ];
   

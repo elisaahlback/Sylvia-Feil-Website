@@ -8,20 +8,60 @@
   --color-ocean: #00577C;
 }
 
-/*#root {
-  width: 100%;
-  /*margin: 0 auto;*/
-  /*padding: 2rem;
-  text-align: center;
-}*/
+::selection {
+	background: teal;
+}
+.bg-custom {
+      background: linear-gradient(135deg, var(--color-light), #e8fdfd);
+    }
 
-.logo {
-  height: 5em;
-  /*padding: 1.5em;*/
-  will-change: filter;
-  transition: filter 300ms;
+.tag {
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+    .wave-bg {
+      background: linear-gradient(135deg, #d9f3f7, #ffe0cf);
+    }
+
+@keyframes fadeUpSmooth {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #01ABB5);
+
+.fade-up {
+  animation: fadeUpSmooth 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  opacity: 0; /* Start invisible in case JS delays class application */
+  will-change: transform, opacity;
 }
+
+.fade-delay-1 {
+  animation-delay: 0.3s;
+}
+
+.fade-delay-2 {
+  animation-delay: 0.6s;
+}
+
+.fade-delay-3 {
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+
+  .fade-in {
+    animation: fadeIn 0.2s ease-out forwards;
+  }
 
