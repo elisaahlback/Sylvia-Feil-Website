@@ -11,7 +11,7 @@ function VitaCard({ year, text }) {
 
 function Vita() {
   return (
-    <main className="bg-light px-6 pt-[80px] pb-[60px]">
+    <main className="bg-light px-6 pt-[150px] pb-[70px]">
       <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
       <h2 className="text-3xl font-bold mb-8 text-ocean">Vita</h2>
 

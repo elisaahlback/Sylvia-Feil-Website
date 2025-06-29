@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react'; //icons
 import LogoSylvia from '.././assets/Logo-Sylvia-Feil.svg'
-import SignetSylvia from '.././assets/Signet-Sylvia-Feil.svg'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -12,21 +11,28 @@ function Navbar() {
         <div className="max-w-screen-xl mx-auto px-4 h-full flex items-center justify-between">
             
             {/* Logo - centered on mobile */}
-            <Link to="/" className="logo flex items-center gap-2 h-full">
-                  {/*<img src={SignetSylvia} className="h-12 md:h-12 object-contain" alt="Sylvia signet" />*/}
-                  <img src={LogoSylvia} className="h-10 md:h-8 object-contain" alt="Sylvia Feil logo" />
+            <Link to="/" onClick={() => setMenuOpen(false)}>
+                  <img src={LogoSylvia} className="h-8 object-contain" alt="Sylvia Feil logo" />
             </Link>
 
             {/* Hamburger - only visible on mobile */}
             <button
-              className="lg:hidden ml-auto text-teal"
               onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle navigation menu"
+              aria-expanded={menuOpen}
+              aria-controls="mobile-menu"
+              className="lg:hidden h-8 w-8 text-teal flex items-center justify-center focus:outline-none focus:ring-0 bg-transparent border-none transition-all"
             >
-              {menuOpen ? <X size={24} /> : <Menu size={24} className=""/>}
+              <div className="transition-transform duration-300 ease-in-out text-ocean bg-none">
+                {menuOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
+              </div>
             </button>
 
+
+
+
             {/* Desktop links */}
-            <ul className="hidden lg:flex gap-6 lg:justify-end text-sm">
+            <ul className="hidden lg:flex gap-6 text-sm">
               <li><Link to="/science_communication" className="text-teal hover:text-red transition-all duration-300 ease-in-out">Wissenschaftskommunikation</Link></li>
               <li><Link to="/media_didactics" className="text-teal hover:text-red transition-all duration-300 ease-in-out">Mediendidaktik</Link></li>
               <li><Link to="/publications" className="text-teal hover:text-red transition-all duration-300 ease-in-out">Publikationen</Link></li>
@@ -35,16 +41,20 @@ function Navbar() {
             </ul>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <ul className="lg:hidden flex flex-col items-center gap-4 py-4 bg-light text-sm shadow-md text-teal hover:text-red transition-all duration-300 ease-in-out">
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/science_communication" onClick={() => setMenuOpen(false)}>Wissenschaftskommunikation</Link></li>
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/media_didactics" onClick={() => setMenuOpen(false)}>Mediendidaktik</Link></li>
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/publications" onClick={() => setMenuOpen(false)}>Publikationen</Link></li>
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/vita" onClick={() => setMenuOpen(false)}>Vita</Link></li>
-            <li className="text-teal hover:text-red transition-all duration-300 ease-in-out"><Link to="/impressum" onClick={() => setMenuOpen(false)}>Impressum</Link></li>
+        {/* Animated Mobile Menu */}
+        <div
+        className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          menuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+        >
+          <ul className="flex flex-col items-center gap-4 pt-4 text-sm text-teal bg-light">
+            <li><Link to="/science_communication" onClick={() => setMenuOpen(false)} className="hover:text-red transition">Wissenschaftskommunikation</Link></li>
+            <li><Link to="/media_didactics" onClick={() => setMenuOpen(false)} className="hover:text-red transition">Mediendidaktik</Link></li>
+            <li><Link to="/publications" onClick={() => setMenuOpen(false)} className="hover:text-red transition">Publikationen</Link></li>
+            <li><Link to="/vita" onClick={() => setMenuOpen(false)} className="hover:text-red transition">Vita</Link></li>
+            <li><Link to="/impressum" onClick={() => setMenuOpen(false)} className="hover:text-red transition">Impressum</Link></li>
           </ul>
-        )}
+        </div>
         
       </nav>
     );

@@ -2,8 +2,7 @@ function MediaDidactics() {
 
     return (
       <>
-      {/* <div className="bg-ocean min-h-screen pt-16 px-6"> */}
-      <main className="bg-ocean pt-12 px-6 pb-19">
+      <main className="bg-ocean pl-6 pt-[150px] pb-[80px]">
         <div className="w-4/5 md:w-3/5 ml-4 md:ml-8 lg:ml-16">
             <h2 className="text-3xl font-bold mb-4 text-light">Mediendidaktik</h2>
             <section className="mb-5 md:mb-6">

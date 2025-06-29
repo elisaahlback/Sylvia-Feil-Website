@@ -6,9 +6,9 @@ function ScienceCommunication() {
 
     return (
       <>
-        <main className="bg-light pt-12 px-6 pb-19">
-          <div className="ml-4 md:ml-8 lg:ml-16 mr-4 md:mr-8 lg:mr-16">
-            <h2 className="text-3xl font-bold mb-4 text-ocean">Wissenschaftskommunikation</h2>
+        <main className="bg-light px-6 pt-[150px] pb-[115px]">
+          <div className="mx-4 md:mx-8 lg:mx-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-ocean">Wissenschaftskommunikation</h2>
             
             
             <section>
