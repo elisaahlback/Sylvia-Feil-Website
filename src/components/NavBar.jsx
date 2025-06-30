@@ -10,12 +10,12 @@ function Navbar() {
       <nav className="bg-light text-teal shadow fixed top-0 left-0 w-full z-50 py-6">
         <div className="max-w-screen-xl mx-auto px-4 h-full flex items-center justify-between">
             
-            {/* Logo - centered on mobile */}
+            {/* Logo centered on mobile */}
             <Link to="/" onClick={() => setMenuOpen(false)}>
                   <img src={LogoSylvia} className="h-8 object-contain" alt="Sylvia Feil logo" />
             </Link>
 
-            {/* Hamburger - only visible on mobile */}
+            {/* Hamburger only visible on mobile */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle navigation menu"

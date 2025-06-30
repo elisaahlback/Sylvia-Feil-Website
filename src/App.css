@@ -11,20 +11,6 @@
 ::selection {
 	background: teal;
 }
-.bg-custom {
-      background: linear-gradient(135deg, var(--color-light), #e8fdfd);
-    }
-
-.tag {
-      animation: float 6s ease-in-out infinite;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-12px); }
-    }
-    .wave-bg {
-      background: linear-gradient(135deg, #d9f3f7, #ffe0cf);
-    }
 
 @keyframes fadeUpSmooth {
   0% {
@@ -56,12 +42,11 @@
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
-
-  .fade-in {
-    animation: fadeIn 0.2s ease-out forwards;
-  }
+.fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
 

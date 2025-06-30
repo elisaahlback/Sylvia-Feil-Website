@@ -38,10 +38,10 @@ const publicationsData = [
     },
     {
         title: "Didaktische Handreichung zur praktischen Nutzung von KI in der Lehre",
-        subtitle: "https://www.gmw-online.de/wp-content/uploads/2024/10/KI-Handreichung-dghd_GMW_V01_21102024.pdf",
+        subtitle: "",
         description: "Bremer, C., Eichhorn, M., Feil, S. et al. (2024)",
         isbn: "",
-        doi: "",
+        doi: "https://www.gmw-online.de/wp-content/uploads/2024/10/KI-Handreichung-dghd_GMW_V01_21102024.pdf", // Not DOI but is a link instead
         image: articleIcon,
         imageSize: 'small',
         pubid: "paper-4"

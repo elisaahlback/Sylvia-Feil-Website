@@ -43,7 +43,7 @@ function PaperCard({
 
         {doi && (
           <p className="mt-1 text-xs">
-            DOI:{' '}
+            {' '}
             <a
               href={`https://doi.org/${doi}`}
               target="_blank"
