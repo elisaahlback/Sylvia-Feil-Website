@@ -36,7 +36,7 @@ function Impressum() {
             Eigentumsrechten der jeweiligen Urheber und dürfen nicht ohne
             Einverständnis weiterverwandt werden.
           </p>
-          <p>Letzte Aktualisierung: XY 2025</p>
+          <p>Letzte Aktualisierung: Juli 2025</p>
         </section>
 
         <section className="space-y-2 text-sm">
